@@ -1,6 +1,7 @@
 main {
     background-color: #E8E8E8;
     display: block;
+    font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -9,18 +10,31 @@ main {
 
 h1 {
     font-size: 64px;
+    margin-bottom: -10px;
 }
 
 h2 {
     font-size: 42px;
+    font-style: italic;
 }
 
 footer {
     text-align: center;
 }
 
+.img {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+}
+
 .mega-img {
     max-width: 50%;
     min-width: 25%;
     width: 50%;
+}
+
+.caption {
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
