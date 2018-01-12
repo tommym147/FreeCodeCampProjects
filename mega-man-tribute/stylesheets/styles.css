@@ -32,6 +32,10 @@ ul {
     text-align: left;
 }
 
+ul img {
+    width: 20%;
+}
+
 footer {
     text-align: center;
 }
@@ -80,4 +84,21 @@ footer {
 .timeline {
     margin: auto;
     width: 80%;
+}
+
+.games {
+    overflow: hidden;
+    position: relative;
+}
+
+.games img {
+    margin-left: 15%; 
+}
+
+.games li {
+    position: absolute;
+    left: 50%;
+    margin: auto;
+    top: 50%;
+    transform: translate(0,-50%);
 }
