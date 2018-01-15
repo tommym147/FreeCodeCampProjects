@@ -27,15 +27,6 @@ h4 {
     font-size: 18px;
 }
 
-ul {
-    display: inline-block;
-    text-align: left;
-}
-
-ul img {
-    width: 20%;
-}
-
 footer {
     text-align: center;
 }
@@ -64,7 +55,7 @@ footer {
     }
 }
 
-.img {
+.image {
     background-color: white;
     margin: auto;
     width: 90%;
@@ -86,19 +77,15 @@ footer {
     width: 80%;
 }
 
-.games {
-    overflow: hidden;
-    position: relative;
+.game {
+    width: 50%;
+    float: left;
 }
 
-.games img {
-    margin-left: 15%; 
+.game img {
+    width: 20%;
 }
 
-.games li {
-    position: absolute;
-    left: 50%;
-    margin: auto;
-    top: 50%;
-    transform: translate(0,-50%);
+.quote {
+    clear: both;
 }
