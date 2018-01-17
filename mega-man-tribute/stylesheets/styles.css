@@ -84,6 +84,9 @@ footer {
 .game {
     width: 50%;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game img {
