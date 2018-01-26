@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 main {
     background-color: #E8E8E8;
     display: block;
@@ -81,8 +85,15 @@ footer {
     width: 80%;
 }
 
+.row {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
 .game {
     width: 50%;
+    height: auto;
     float: left;
     display: flex;
     /* only works for flex displays*/
@@ -92,6 +103,7 @@ footer {
 
 .game img {
     width: 20%;
+    height: auto;
 }
 
 .quote {
