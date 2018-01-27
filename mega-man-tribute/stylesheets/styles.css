@@ -28,6 +28,10 @@ h3 {
 }
 
 h4 {
+    font-size: 20px;
+}
+
+p {
     font-size: 18px;
 }
 
@@ -37,6 +41,7 @@ ul {
 
 footer {
     text-align: center;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -108,4 +113,9 @@ footer {
 
 .quote {
     clear: both;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    text-align: left;
 }
