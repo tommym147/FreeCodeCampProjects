@@ -1,11 +1,13 @@
 * {
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 main {
     background-color: #E8E8E8;
     display: block;
     font-family: sans-serif;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -14,12 +16,14 @@ main {
 
 h1 {
     font-size: 64px;
-    margin-bottom: -10px;
+    margin-bottom: 12px;
+    padding-top: 10px;
 }
 
 h2 {
     font-size: 42px;
     font-style: italic;
+    margin-bottom: 15px;
 }
 
 h3 {
@@ -28,7 +32,8 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
+    margin-bottom: 0px;
 }
 
 p {
@@ -75,6 +80,7 @@ footer {
 }
 
 .mega-img {
+    margin-top: 20px;
     max-width: 50%;
     min-width: 25%;
     width: 50%;
@@ -88,6 +94,7 @@ footer {
 .timeline {
     margin: auto;
     width: 80%;
+    padding-top: 15px;
 }
 
 .row {
@@ -113,9 +120,13 @@ footer {
 
 .quote {
     clear: both;
-    width: 60%;
+    width: 70%;
     height: auto;
     margin: auto;
-    padding-top: 10px;
+    padding-top: 1px;
     text-align: left;
+}
+
+.thelink {
+
 }
