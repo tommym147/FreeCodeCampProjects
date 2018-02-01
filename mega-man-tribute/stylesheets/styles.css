@@ -54,30 +54,6 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (max-width: 1000px) {
-    h1 {
-        font-size: 52px;
-        margin-bottom: -8px;
-    }
-
-    h2 {
-        font-size: 32px;
-        font-style: italic;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    h1 {
-        font-size: 40px;
-        margin-bottom: -6px;
-    }
-
-    h2 {
-        font-size: 20px;
-        font-style: italic;
-    }
-}
-
 .image {
     background-color: white;
     margin: auto;
@@ -141,4 +117,37 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 15px;
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 32px;
+        font-style: italic;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: -6px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-style: italic;
+    }
 }
