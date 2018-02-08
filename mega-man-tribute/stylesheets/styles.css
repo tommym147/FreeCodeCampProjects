@@ -155,11 +155,40 @@ footer {
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 40px;
-        margin-bottom: -6px;
     }
 
     h2 {
         font-size: 20px;
         font-style: italic;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    .row {
+        float: none;
+        padding-bottom: 0px;
+    }
+
+    .game {
+        width: 100%;
+        margin-bottom: 5px;
     }
 }
