@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+main {
+    display: block;
+}
+
 ul {
     background-color: #333;
     list-style: none;
@@ -23,4 +27,29 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    background-image: url(../images/newyork.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height: 600px;
 }
