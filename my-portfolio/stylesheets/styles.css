@@ -75,3 +75,15 @@ header {
     float: left;
     margin-top: 140px;
 }
+
+.resume {
+    width: 100%;
+    height: 550px;
+}
+
+.xp {
+    width: 30%;
+    height: 300px;
+    background-color: yellow;
+    float: left;
+}
