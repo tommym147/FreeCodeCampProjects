@@ -30,20 +30,43 @@ li a:hover {
 }
 
 h1 {
+    font-size: 64px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: white;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.heading {
     width: 100%;
-    position: absolute;
     text-align: center;
-    top: 50%;
-    transform: translate(0,-50%);
     color: white;
     font-family: sans-serif;
 }
 
-header {
-    position: relative;
-    width: 100%;
-    height: 600px;
+.heading h2 {
+    display: inline;
+    margin-right: 18px;
+}
+
+.headbox {
+    width: 30%;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(0,-50%);
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    position: relative;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     background: linear-gradient(rgba(20,20,20, .2),rgba(20,20,20, .2)),url(../images/intro.jpg);
     background-attachment: fixed;
@@ -57,7 +80,7 @@ header {
 
 footer {
     width: auto;
-    height: 100px;
+    height:150px;
     background-color: black;
     text-align: center;
     color: white;
@@ -157,7 +180,7 @@ input[type=submit]:hover {
     margin-top: 25px;
 }
 
-h4, p, hr {
+h4, p {
     margin-bottom: 10px;
 }
 
@@ -239,7 +262,7 @@ h4, p, hr {
 }
 
 .end {
-    padding-top: 30px;
+    padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
