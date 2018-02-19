@@ -220,31 +220,54 @@ input[type=submit]:hover {
 
 .projects {
     width: 100%;
-    height: auto;
+    height: 800px;
     text-align: center;
     padding-bottom: 60px;
 }
 
 .projects h2 {
-    margin-top: 45px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
-.pGrid {
-    width: 75%;
-    height: auto;
-    display: grid;
-    grid-column-gap: 60px;
-    grid-row-gap: 20px;
-    grid-template-columns: auto auto;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+.projects p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #696969;
 }
 
-.gig img {
+.wall {
+    width: 1200px;
+    height: 700px;
+    margin: 30px auto 0px;
+}
+
+.frame {
+    width: 400px;
+    height: 300px;
+    margin: 25px 100px;
+    float: left;
+}
+
+.frame p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.pic {
+    width: 400px;
+    height: 255px;
+    margin: 0px 0px 10px;
+}
+
+.pic img {
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
 }
 
 .contact {
