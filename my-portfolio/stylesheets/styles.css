@@ -465,7 +465,6 @@ input[type=submit]:hover {
 
     .work {
         width: 470px;
-        float: left;
         margin: 25px 15px 0px;
     }
 
@@ -591,5 +590,33 @@ input[type=submit]:hover {
     .infoText p {
         font-size: 14px;
         color: #696969;
+    }
+
+    /* --- Resume ---*/
+
+    .xp {
+        width: 780px;
+    }
+
+    .work {
+        width: 370px;
+        margin: 25px 10px 0px;
+    }
+
+    .boxtext {
+        width: 290px;
+        margin: 60px 40px;
+    }
+
+    .boxtext p {
+        font-size: 14px;
+    }
+
+    .boxtext h4 {
+        font-size: 16px;
+    }
+
+    .boxtext hr {
+        margin: 25px 0px;
     }
 }
