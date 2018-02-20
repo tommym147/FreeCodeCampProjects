@@ -619,4 +619,123 @@ input[type=submit]:hover {
     .boxtext hr {
         margin: 25px 0px;
     }
+
+    /* --- Projects --- */
+
+    .projects {
+        height: 1550px;
+        padding-top: 1px;
+        padding-bottom: 60px;
+    }
+
+    .projects h2 {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .projects p {
+        font-size: 16px;
+    }
+
+    .wall {
+        width: 780px;
+        height: 1200px;
+        margin: 30px auto 0px;
+    }
+
+    .frame {
+        width: 400px;
+        height: 300px;
+        margin: 25px 190px;
+        float: left;
+    }
+
+    .frame p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .pic {
+        width: 400px;
+        height: 255px;
+        margin: 0px 0px 10px;
+    }
+
+    /* --- Contact --- */
+
+    .contactBox {
+        width: 780px;
+        height: 800px;
+        margin: 100px auto;
+    }
+
+    .contactCol {
+        width: 350px;
+        height: 800px;
+        float: left;
+        margin: 0px 20px;
+    }
+
+    .ccBox {
+        width: 350px;
+        height: 250px;
+        margin-bottom: 25px;
+        padding-top: 1px;
+    }
+
+    .ccBoxText {
+        width: 300px;
+        height: 200px;
+        margin: 25px 30px;
+        padding-top: 1px;
+    }
+
+    .ccBoxText h3,
+    .ccBoxText p {
+        margin: 30px 15px;
+    }
+
+    .ccBoxText p {
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+
+    .message {
+        width: 300px;
+        height: 720px;
+        margin: 40px 30px;
+        padding-top: 1px;
+    }
+
+    .message h3 {
+        margin: 15px 15px 30px;
+    }
+
+    .message input[type=text], .message textarea {
+        width: 280px;
+        height: auto;
+        padding: 18px;
+        border: 1px solid white;
+        background-color: inherit;
+        box-sizing: border-box;
+        margin: 12px 10px;
+        resize: vertical;
+        color: white;
+    }
+
+    .message input[type=submit] {
+        background-color: rgba(255, 77, 77, .8);
+        font-family: sans-serif;
+        font-size: 16px;
+        color: white;
+        padding: 15px 60px;
+        margin-top: 30px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        float: right;
+        transition: background-color .5s;
+    }
 }
