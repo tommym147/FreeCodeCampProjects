@@ -739,3 +739,137 @@ input[type=submit]:hover {
         transition: background-color .5s;
     }
 }
+
+@media screen and (max-width: 800px) {
+    /* --- Heading --- */
+    h1 {
+        font-size: 56px;
+    }
+
+    .headbox {
+        width: 95%;
+        height: 200px;
+        margin: 300px auto;
+        padding-top: 1px;
+    }
+
+    .heading {
+        width: 100%;
+        height: 124px;
+        margin-top: 38px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .heading h2 {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .heading span {
+        display: inline;
+    }
+
+    /* --- Intro --- */
+
+    .intro {
+        width: 100%;
+        height: 1150px;
+        padding-top: 1px;
+    }
+
+    .introBox {
+        width: 95%;
+        height: 1100px; /* auto? */
+        margin: 50px auto 0px;
+    }
+
+    .info {
+        width: 100%;
+        height: 700px;
+        float: none; /*idk*/
+    }
+
+    .infoPic {
+        width: 95%;
+        height: auto; /*idk*/
+        margin: 0px auto; /*auto change*/
+    }
+
+    .infoPic img {
+        width: 400px;
+        height: auto;
+    }
+
+    #textinfo {
+        height: 400px;
+        padding-top: 1px;
+    }
+
+    .infoText {
+        width: 95%;
+        height: 320px;
+        margin: 50px auto 0px;
+        font-family: sans-serif;
+        line-height: 1.6;
+    }
+
+    .infoText h2, .infoText p {
+        margin-bottom: 20px;
+    }
+
+    .infoText h2 {
+        font-size: 20px;
+    }
+
+    .infoText p {
+        color: #696969;
+    }
+
+    /* --- Resume --- */
+
+    .resume {
+        width: 100%;
+        height: 1200px;
+        padding-top: 1px;
+        background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/resume1.jpeg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    }
+
+    .xp {
+        width: 95%;
+        height: 1000px;
+        margin-top: 120px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work {
+        width: 100%;
+        height: 450px;
+        float: left;
+        margin: 25px auto 0px;
+        padding-bottom: 10px;
+    }
+
+    .boxtext {
+        width: 95%;
+        height: 430px;
+        margin: 20px auto;
+    }
+
+    .boxtext p {
+        font-size: 18px;
+    }
+
+    .boxtext hr {
+        margin: 25px 0px;
+    }
+}
