@@ -13,17 +13,26 @@
     <body>
         <nav>
             <ul>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#con">Contact</a></li>
+                <li><a href="#pro">Projects</a></li>
+                <li><a href="#res">Resume</a></li>
+                <li><a href="#in">About</a></li>
             </ul>
+            <div class="topnav" id="myTopnav">
+              <a href="#in">About</a>
+              <a href="#res">Resume</a>
+              <a href="#pro">Projects</a>
+              <a href="#con">Contact</a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
         </nav>
         <header>
             <div class="headbox">
                 <div class="heading">
                     <hr>
-                    <h1>THOMAS <span>MEJIA</span></h1>
+                    <div class="name">
+                        <h1>THOMAS <span>MEJIA</span></h1>
+                    </div>
                     <hr>
                     <h2>#User Experience</h2>
                     <h2>#Freelance</h2>
@@ -32,7 +41,7 @@
             </div>
         </header>
         <main>
-            <div class="intro">
+            <div class="intro" id = "in">
                 <div class="introBox">
                     <div class="info">
                         <div class="infoPic">
@@ -58,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="resume">
+            <div class="resume" id = "res">
                 <div class="xp">
                     <div class="work purpleFade">
                         <div class="boxtext">
@@ -108,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="projects">
+            <div class="projects" id = "pro">
                 <h2>My Latest Works</h2>
                 <p>Here are my most recent activities.</p>
                 <div class="wall">
@@ -139,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact">
+            <div class="contact" id = "con">
                 <div class="contactBox">
                     <div class="contactCol purpleFade">
                         <div class="message">
@@ -200,5 +209,16 @@
                 <p>Written and coded by <a href="https://www.freecodecamp.org/tommym147" target="_freecodecamp">Thomas Mejia</a></p>
             </div>
         </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </body>
 </html>

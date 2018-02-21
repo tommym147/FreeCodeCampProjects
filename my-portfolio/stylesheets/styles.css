@@ -3,28 +3,6 @@
     padding: 0;
 }
 
-ul {
-    background-color: #333;
-    list-style: none;
-    overflow: hidden;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    color: white;
-    display: block;
-    padding: 14px 15px;
-    text-align: center;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
 header {
     width: 100%;
     height: 800px;
@@ -102,6 +80,83 @@ button:hover {
 input[type=submit]:hover {
     background-color: rgb(0, 0, 128);
     border: 1px solid white;
+}
+
+/* --- Navbar --- */
+
+ul {
+    background-color: #333;
+    list-style: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .icon {
+    display: none; /* Hides icon when big */
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: none;
+    }
+
+    .topnav a {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
 
 /* --- Heading --- */
