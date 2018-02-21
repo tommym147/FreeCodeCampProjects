@@ -1,7 +1,8 @@
 @media screen and (max-width: 1200px) {
     /* --- Heading --- */
     h1 {
-        font-size: 56px;
+        font-size: 52px;
+        font-family: serif;
     }
 
     .headbox {
@@ -21,7 +22,7 @@
     }
 
     .heading h2 {
-        font-size: 20px;
+        font-size: 18px;
         display: inline;
         margin-right: 15px;
     }
@@ -123,7 +124,13 @@
     }
 
     .boxtext p {
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+
+    .boxtext h4 {
         font-size: 18px;
+        font-family: sans-serif;
     }
 
     .boxtext hr {

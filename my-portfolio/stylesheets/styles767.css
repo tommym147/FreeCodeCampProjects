@@ -1,7 +1,8 @@
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 767px) {
     /* --- Heading --- */
     h1 {
-        font-size: 56px;
+        font-size: 52px;
+        font-family: serif;
     }
 
     .headbox {
@@ -21,6 +22,7 @@
     }
 
     .heading h2 {
+        font-size: 18px;
         display: inline;
         margin-right: 15px;
     }
@@ -33,41 +35,42 @@
 
     .intro {
         width: 100%;
-        height: 1150px;
+        height: auto;
         padding-top: 1px;
     }
 
     .introBox {
         width: 95%;
-        height: 1100px; /* auto? */
-        margin: 50px auto 0px;
+        height: auto;
+        margin: 50px auto;
     }
 
     .info {
         width: 100%;
-        height: 700px;
-        float: none; /*idk*/
+        height: auto;
+        float: none;
     }
 
     .infoPic {
         width: 95%;
-        height: auto; /*idk*/
-        margin: 0px auto; /*auto change*/
+        height: auto;
+        margin: 0px 0px;
     }
 
     .infoPic img {
         width: 400px;
         height: auto;
+        max-width: 100%;
     }
 
     #textinfo {
-        height: 400px;
+        height: auto;
         padding-top: 1px;
     }
 
     .infoText {
         width: 95%;
-        height: 320px;
+        height: auto;
         margin: 50px auto 0px;
         font-family: sans-serif;
         line-height: 1.6;
@@ -78,10 +81,11 @@
     }
 
     .infoText h2 {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .infoText p {
+        font-size: 12px;
         color: #696969;
     }
 
@@ -124,7 +128,13 @@
     }
 
     .boxtext p {
-        font-size: 18px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .boxtext h4 {
+        font-size: 16px;
+        font-family: sans-serif;
     }
 
     .boxtext hr {
@@ -135,7 +145,7 @@
 
     .projects {
         width: 100%;
-        height: 1800px;
+        height: auto;
         text-align: center;
         padding-bottom: 60px;
     }
@@ -153,16 +163,16 @@
     }
 
     .wall {
-        width: 95%;
-        height: 1600px;
+        width: 90%;
+        height: auto;
         padding-top: 1px;
         margin: 50px auto 0px;
     }
 
     .frame {
-        width: 75%;
-        height: 300px;
-        margin: 0px auto 100px;
+        width: 100%;
+        height: auto;
+        margin: 0px auto 30px;
         padding: 1px;
         float: none;
     }
@@ -184,7 +194,7 @@
     }
 
     .clear {
-        clear: both;
+        clear: none;
     }
 
     /* --- Contact --- */
@@ -232,9 +242,9 @@
     }
 
     .ccBoxText {
-        width: 500px;
+        width: 95%;
         height: 200px;
-        margin: 25px 30px;
+        margin: 25px auto;
         padding-top: 1px;
     }
 
@@ -284,5 +294,66 @@
         cursor: pointer;
         float: right;
         transition: background-color .5s;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* --- Heading --- */
+
+    h1 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .heading h2 {
+        font-size: 12px;
+        display: inline;
+        margin-right: 15px;
+    }
+
+    /* --- Intro --- */
+
+    .infoText p {
+        font-size: 12px;
+        color: #696969;
+    }
+
+    /* --- Resume --- */
+
+    .boxtext h3 {
+        font-size: 18px;
+    }
+
+    .boxtext h4 {
+        font-size: 14px;
+    }
+
+    .boxtext p {
+        font-size: 12px;
+    }
+
+    /* --- Projects --- */
+
+    .projects h2 {
+        font-size: 24px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .projects p {
+        font-size: 12px;
+        font-family: sans-serif;
+        color: #696969;
+    }
+
+    /* --- Contact --- */
+
+    .message h3, .ccBoxText h3 {
+        font-size: 20px;
+    }
+
+    .ccBoxText p {
+        font-size: 12px;
+        font-family: sans-serif;
     }
 }

@@ -1,6 +1,11 @@
 @media screen and (max-width: 990px) {
     /* --- Heading --- */
 
+    h1 {
+        font-size: 64px;
+        font-family: serif;
+    }
+
     .headbox {
         width: 760px;
         height: 200px;
@@ -12,9 +17,13 @@
         width: 100%;
         height: 124px;
         margin-top: 38px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
     }
 
     .heading h2 {
+        font-size: 24px;
         display: inline;
         margin-right: 15px;
     }
@@ -26,24 +35,27 @@
     /* --- Intro --- */
 
     .intro {
+        width: 100%;
         height: 650px;
+        padding-top: 1px;
     }
 
     .introBox {
-        width: 780px;
+        width: 760px;
         height: 600px;
         margin: 50px auto 0px;
     }
 
     .info {
-        width: 390px;
+        width: 380px;
         height: 600px;
+        float: left;
     }
 
     .infoPic {
         width: 340px;
         height: 558px;
-        margin: 43px 25px 0px;
+        margin: 43px 20px 0px;
     }
 
     .infoPic img {
@@ -52,9 +64,10 @@
     }
 
     .infoText {
-        width: 380px;
+        width: 375px;
         height: 380px;
         margin-top: 120px;
+        font-family: sans-serif;
         line-height: 1.6;
     }
 
@@ -73,18 +86,44 @@
 
     /* --- Resume ---*/
 
+    .resume {
+        width: 100%;
+        height: 800px;
+        padding-top: 1px;
+        background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/resume1.jpeg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    }
+
     .xp {
-        width: 780px;
+        width: 760px;
+        height: 600px;
+        margin: 100px auto 0px;
     }
 
     .work {
-        width: 370px;
+        width: 360px;
+        height: 550px;
+        float: left;
         margin: 25px 10px 0px;
+        padding-bottom: 10px;
+    }
+
+    .purpleFade {
+        background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4));
+        background-color: rgba(238,130,238,.4);
+        color: white;
     }
 
     .boxtext {
         width: 290px;
-        margin: 60px 40px;
+        height: 430px;
+        margin: 60px 35px;
     }
 
     .boxtext p {
@@ -102,7 +141,9 @@
     /* --- Projects --- */
 
     .projects {
+        width: 100%;
         height: 1550px;
+        text-align: center;
         padding-top: 1px;
         padding-bottom: 60px;
     }
@@ -115,10 +156,12 @@
 
     .projects p {
         font-size: 16px;
+        font-family: sans-serif;
+        color: #696969;
     }
 
     .wall {
-        width: 780px;
+        width: 760px;
         height: 1200px;
         margin: 30px auto 0px;
     }
@@ -126,7 +169,7 @@
     .frame {
         width: 400px;
         height: 300px;
-        margin: 25px 190px;
+        margin: 25px 180px;
         float: left;
     }
 
@@ -141,10 +184,34 @@
         margin: 0px 0px 10px;
     }
 
+    .pic img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
     /* --- Contact --- */
 
+    .contact {
+        width: 100%;
+        height: 1000px;
+        padding-top: 1px;
+        background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/contact1.jpeg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+        color: white;
+    }
+
     .contactBox {
-        width: 780px;
+        width: 760px;
         height: 800px;
         margin: 100px auto;
     }
@@ -153,7 +220,7 @@
         width: 350px;
         height: 800px;
         float: left;
-        margin: 0px 20px;
+        margin: 0px 15px;
     }
 
     .ccBox {
@@ -161,6 +228,10 @@
         height: 250px;
         margin-bottom: 25px;
         padding-top: 1px;
+    }
+
+    #boxEnd {
+        margin-bottom: 0px;
     }
 
     .ccBoxText {
@@ -217,4 +288,47 @@
         float: right;
         transition: background-color .5s;
     }
+}
+
+/* --- End --- */
+
+.end {
+    width: 300px;
+    height: 100px;
+    margin: 40px auto 0px;
+}
+
+.end p {
+    margin-top: 10px;
+}
+
+.iconbox {
+    width: 123px;
+    height: 40px;
+    margin: auto;
+}
+
+.icon {
+    width: 40px;
+    height: 32px;
+    float: left;
+    border-right: 1px solid white;
+}
+
+.logo {
+    width: 28px;
+    height: 28px;
+    margin: 2px 6px;
+}
+
+#logoEnd {
+    width: 40px;
+    height: 32px;
+    margin: 0px;
+    border-right: 0px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
 }
