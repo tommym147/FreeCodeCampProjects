@@ -872,4 +872,159 @@ input[type=submit]:hover {
     .boxtext hr {
         margin: 25px 0px;
     }
+
+    /* --- Projects --- */
+
+    .projects {
+        width: 100%;
+        height: 1800px;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .projects h2 {
+        font-size: 40px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .projects p {
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #696969;
+    }
+
+    .wall {
+        width: 95%;
+        height: 1600px;
+        padding-top: 1px;
+        margin: 50px auto 0px;
+    }
+
+    .frame {
+        width: 75%;
+        height: 300px;
+        margin: 0px auto 100px;
+        padding: 1px;
+        float: none;
+    }
+
+    .frame p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .pic {
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 10px;
+    }
+
+    .pic img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    /* --- Contact --- */
+
+    .contact {
+        width: 100%;
+        height: 1850px;
+        padding-top: 1px;
+        background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/contact1.jpeg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+        color: white;
+    }
+
+    .contactBox {
+        width: 95%;
+        height: 1700px;
+        margin: 80px auto 0px;
+    }
+
+    .contactCol {
+        width: 100%;
+        height: 800px;
+        margin: 25px auto;
+    }
+
+    .ccBox {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 25px;
+        padding-top: 1px;
+    }
+
+    #boxStart {
+        margin-top: 0px;
+    }
+
+    #boxEnd {
+        margin-bottom: 0px;
+    }
+
+    .ccBoxText {
+        width: 500px;
+        height: 200px;
+        margin: 25px 30px;
+        padding-top: 1px;
+    }
+
+    .ccBoxText h3,
+    .ccBoxText p {
+        margin: 30px 15px;
+    }
+
+    .ccBoxText p {
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+
+    .message {
+        width: 90%;
+        height: 720px;
+        margin: 40px auto;
+        padding-top: 1px;
+    }
+
+    .message h3 {
+        margin: 15px 0px 30px;
+    }
+
+    .message input[type=text], .message textarea {
+        width: 100%;
+        height: auto;
+        padding: 18px;
+        border: 1px solid white;
+        background-color: inherit;
+        box-sizing: border-box;
+        margin: 12px auto;
+        resize: vertical;
+        color: white;
+    }
+
+    .message input[type=submit] {
+        background-color: rgba(255, 77, 77, .8);
+        font-family: sans-serif;
+        font-size: 16px;
+        color: white;
+        padding: 15px 60px;
+        margin-top: 30px;
+        margin-right: 0px;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        float: right;
+        transition: background-color .5s;
+    }
 }
