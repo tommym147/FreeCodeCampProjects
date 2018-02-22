@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1px 0px
+}
+
+.pic {
+    background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/contact1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+.purpleFade {
+    background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4));
+    background-color: rgba(238,130,238,.4);
+    color: white;
+}
+
+.box {
+    width: 560px;
+    height: 500px;
+    margin: 150px auto;
+    padding: 1px 0px;
+    text-align: center;
+}
+
+.boxtext {
+    width: 500px;
+    height: 300px;
+    margin: 80px 30px 0px;
+}
+
+.boxtext h1 {
+    font-size: 42px;
+    margin-bottom: 100px;
+}
+
+.boxtext h2 {
+    font-size: 28px;
+    margin-bottom: 120px;
+    font-family: sans-serif;
+}
+
+.boxtext button {
+    font-size: 16px;
+    padding: 15px 60px;
+    cursor: pointer;
+    background-color: rgba(255, 77, 77, .8);
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    transition: background-color .5s;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 128);
+    border: 1px solid white;
+}
+/*
+@media screen and (max-width: 767px) {
+    .box {
+        width: 95%;
+        height: 460px;
+        margin: 60px auto;
+        padding-top: 1px;
+        text-align: center;
+    }
+
+    .boxtext {
+        width: 90%;
+        height: 300px;
+        margin: 80px 30px 0px;
+    }
+
+    .boxtext h1 {
+        font-size: 36px;
+        margin-bottom: 100px;
+    }
+
+    .boxtext h2 {
+        font-size: 24px;
+        margin-bottom: 120px;
+        font-family: sans-serif;
+    }
+
+    .boxtext button {
+        font-size: 16px;
+        padding: 15px 40px;
+        cursor: pointer;
+        background-color: rgba(255, 77, 77, .8);
+        font-family: sans-serif;
+        color: white;
+        border: none;
+        transition: background-color .5s;
+    }
+
+    button:hover {
+        background-color: rgb(0, 0, 128);
+        border: 1px solid white;
+    }
+}
+*/

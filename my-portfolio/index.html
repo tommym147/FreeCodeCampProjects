@@ -35,9 +35,9 @@
                         <h1>THOMAS <span>MEJIA</span></h1>
                     </div>
                     <hr>
-                    <h2>#User Experience</h2>
-                    <h2>#Freelance</h2>
                     <h2>#Programming</h2>
+                    <h2>#Freelance</h2>
+                    <h2>#Web Design</h2>
                 </div>
             </div>
         </header>
@@ -54,12 +54,12 @@
                             <h2>Hi, I'm Tommy, Web Developer from Los Angeles.</h2>
                             <p>
                                 I am a freelance web developer with a Bachelor's degree in Computer Science.
-                                I have knowledge of Data Structures, Object Oriented Design, and Programming.
+                                I have knowledge of Programming, Web Applications, Data Structures, and Object Oriented Design.
                             </p>
                             <p>
                                 I've worked with the Computer Science and Information Technology departments
                                 of California State University, Dominguez Hills in leading students towards
-                                academic success. I've also participated in the Google IgniteCS mentorship
+                                academic success. I participated in the Google IgniteCS mentorship
                                 program where Computer Science activities were presented to minorities in
                                 local communities.
                             </p>
@@ -80,16 +80,16 @@
                                 · Instructed programming concepts to students: variables, conditionals, classes, objects, etc.
                             </p>
                             <p>
-                                · Gave frequent subject examples and asked for feedback of understanding.
+                                · Provided frequent subject examples and received positive feedback of teaching methods.
                             </p>
                             <hr>
                             <h4>Information Technology Lab Consultant | CSUDH </h4>
                             <p>Feb. 2016 - May 2017</p>
                             <p>
-                                · Assisted students with their school accounts and connecting to the university Wi-Fi.
+                                · Assisted students with their university accounts, connecting to the university Wi-Fi, and fixed technical issues.
                             </p>
                             <p>
-                                · Submitted tickets of individuals with technical issues using ServiceNow management system.
+                                · Submitted tickets for individuals with technical issues using ServiceNow management system.
                             </p>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <h4>California State University, Dominguez Hills | BS CS</h4>
                             <p>Sept. 2013 - May 2017</p>
                             <p>
-                                · Published in the article, “Urging Young Students to Choose Computer Science” in the campus magazine
+                                · Published in the article, “Urging Young Students to Choose Computer Science” in the "Dominguez Today" magazine
                             </p>
                             <p>
                                 · President of the ACM Computer Science Club and led students to build Android mobile applications
@@ -154,11 +154,11 @@
                     <div class="contactCol purpleFade" id = "mes">
                         <div class="message">
                             <h3>LEAVE A MESSAGE</h3>
-                            <form class="###" action="index.html" method="post">
-                                <input type="text" id="n" name="name" placeholder="Name*">
-                                <input type="text" id="e" name="email" placeholder="Email*">
-                                <input type="text" id="s" name="subject" placeholder="Subject*">
-                                <textarea name="mess" rows="14" cols="40" placeholder="Message"></textarea>
+                            <form action="process.php" method="post">
+                                <input type="text" id="n" required name="name" placeholder="Name*">
+                                <input type="email" id="e" required name="email" placeholder="Email*">
+                                <input type="text" id="s" required name="subject" placeholder="Subject*">
+                                <textarea name="mess" rows="14" cols="40" placeholder="Message*"></textarea>
                                 <input type="submit" name="sub" value="Submit">
                             </form>
                         </div>

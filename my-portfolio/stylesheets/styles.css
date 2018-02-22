@@ -162,7 +162,7 @@ li a:hover {
     display: block;
     text-align: center;
   }
-} 
+}
 
 /* --- Heading --- */
 
@@ -422,7 +422,7 @@ li a:hover {
     margin: 15px 15px 30px;
 }
 
-.message input[type=text], .message textarea {
+.message input[type=text], .message input[type=email], .message textarea {
     width: 470px;
     height: auto;
     padding: 18px;

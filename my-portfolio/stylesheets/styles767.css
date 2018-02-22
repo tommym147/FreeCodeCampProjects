@@ -269,7 +269,7 @@
         margin: 15px 0px 30px;
     }
 
-    .message input[type=text], .message textarea {
+    .message input[type=text], .message input[type=email], .message textarea {
         width: 100%;
         height: auto;
         padding: 18px;
