@@ -6,7 +6,7 @@
 header {
     width: 100%;
     height: 800px;
-    padding: 1px;
+    padding-top: 1px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
     background: linear-gradient(rgba(20,20,20, .2),rgba(20,20,20, .2)),url(../images/intro.jpg);
     background-attachment: fixed;
@@ -134,7 +134,7 @@ li a:hover {
     display: none; /* Hides icon when big */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     ul {
         display: none;
     }
@@ -146,10 +146,11 @@ li a:hover {
     .topnav a.icon {
         float: right;
         display: block;
+        border: none;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -161,14 +162,15 @@ li a:hover {
     display: block;
     text-align: center;
   }
-}
+} 
 
 /* --- Heading --- */
 
 .headbox {
+    clear: both;
     width: 560px;
     height: 400px;
-    margin: 200px auto;
+    margin: 177px auto;
     padding-top: 1px;
 }
 

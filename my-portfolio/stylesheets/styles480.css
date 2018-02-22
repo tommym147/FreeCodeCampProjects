@@ -1,5 +1,18 @@
 @media screen and (max-width: 480px) {
     /* --- Heading --- */
+    header {
+        height: 640px;
+        position: relative;
+        background-attachment: scroll;
+    }
+
+    .resume {
+        background-attachment: scroll;
+    }
+
+    .contact {
+        background-attachment: scroll;
+    }
 
     h1 {
         font-size: 20px;
@@ -7,10 +20,13 @@
     }
 
     .headbox {
-        width: 95%;
+        width: 96%;
         height: 200px;
-        margin: 300px auto;
+        margin: 0px auto;
         padding-top: 1px;
+        position: absolute;
+        top: 50%;
+        transform: translate(2%,-50%);
     }
 
     .heading {
@@ -80,6 +96,11 @@
     }
 
     .ccBoxText p {
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .end p {
         font-size: 12px;
         font-family: sans-serif;
     }
