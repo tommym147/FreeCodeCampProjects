@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    padding: 1px 0px
-}
-
 .pic {
     background: linear-gradient(rgba(20,20,20, .4),rgba(20,20,20, .4)),url(../images/contact1.jpeg);
     background-position: center;
@@ -24,6 +20,12 @@ body {
     color: white;
 }
 
+.area {
+    width: 100%;
+    height: 100%;
+    padding: 1px 0px;
+}
+
 .box {
     width: 560px;
     height: 500px;
@@ -34,8 +36,8 @@ body {
 
 .boxtext {
     width: 500px;
-    height: 300px;
-    margin: 80px 30px 0px;
+    height: 440px;
+    margin: 60px 30px 0px;
 }
 
 .boxtext h1 {
@@ -64,30 +66,34 @@ button:hover {
     background-color: rgb(0, 0, 128);
     border: 1px solid white;
 }
-/*
+
 @media screen and (max-width: 767px) {
     .box {
         width: 95%;
         height: 460px;
-        margin: 60px auto;
+        margin: 125px auto;
         padding-top: 1px;
         text-align: center;
+    }
+
+    .area {
+        height: 1400px;
     }
 
     .boxtext {
         width: 90%;
         height: 300px;
-        margin: 80px 30px 0px;
+        margin: 80px auto 0px;
     }
 
     .boxtext h1 {
         font-size: 36px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     .boxtext h2 {
         font-size: 24px;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
         font-family: sans-serif;
     }
 
@@ -107,4 +113,50 @@ button:hover {
         border: 1px solid white;
     }
 }
-*/
+
+@media screen and (max-width: 480px) {
+
+    .pic {
+        background-attachment: scroll;
+    }
+
+    .area {
+        height: 850px;
+    }
+
+    .box {
+        width: 95%;
+        height: 300px;
+        margin: 60px auto;
+        padding-top: 1px;
+        text-align: center;
+    }
+
+    .boxtext {
+        width: 90%;
+        height: 240px;
+        margin: 30px auto 0px;
+    }
+
+    .boxtext h1 {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+
+    .boxtext h2 {
+        font-size: 16px;
+        margin-bottom: 60px;
+        font-family: sans-serif;
+    }
+
+    .boxtext button {
+        font-size: 10px;
+        padding: 15px 40px;
+        cursor: pointer;
+        background-color: rgba(255, 77, 77, .8);
+        font-family: sans-serif;
+        color: white;
+        border: none;
+        transition: background-color .5s;
+    }
+}
